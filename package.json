@@ -1,4 +1,7 @@
 {
+  "name": "passport-namely",
+  "description": "Name authentication strategy for Passport and Node.js",
+  "version": "0.1.0",
   "engines": {
     "node": ">= 0.10.0"
   },
@@ -9,10 +12,7 @@
     "load-grunt-tasks": "^0.6.0",
     "should": "^4.0.4"
   },
-  "name": "passport-namely",
-  "description": "Name authentication strategy for Passport and Node.js",
-  "version": "0.1.0",
-  "main": "./lib/passport-namely",
+  "main": "./lib",
   "scripts": {
     "test": "grunt test"
   },
@@ -36,5 +36,9 @@
   "bugs": {
     "url": "https://github.com/mykabam/passport-namely/issues"
   },
-  "homepage": "https://github.com/mykabam/passport-namely"
+  "homepage": "https://github.com/mykabam/passport-namely",
+  "dependencies": {
+    "passport-oauth2": "^1.1.2",
+    "pkginfo": "^0.3.0"
+  }
 }
