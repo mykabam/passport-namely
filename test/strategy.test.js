@@ -1,4 +1,4 @@
-/*global describe, it, beforeEach, before*/
+/*global describe, it, beforeEach*/
 var should = require('should');
 var NamelyStrategy = require('../lib/strategy');
 
